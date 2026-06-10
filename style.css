@@ -3,14 +3,13 @@ h1{
     font-size:40px;
     text-align:center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top:20px;
+    
     padding:10px;
 }
 
 h2{
     text-align:center;
     font-size:30px;
-    margin-bottom:30px;
     padding:10px;
     color:brown;
 }
@@ -20,7 +19,7 @@ button{
     border:none;
     border-radius:8px;
     font-size:20px;
-    background-color: rgb(235, 149, 120);
+    background-color: rgb(120, 148, 239);
     padding:10px;
     font-family:'Poppins',Arial;
     color:rgb(220, 228, 224);
@@ -29,4 +28,22 @@ button{
 button:hover{
     background-color:rgb(247, 186, 247);
     color:white;
+}
+body {
+    background-image: url('https://images.pexels.com/photos/11529406/pexels-photo-11529406.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    text-align:center;
+    font-weight: 700;
+}
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    
+    z-index: -1;
+    filter: blur(6px);        /* adjust blur amount */
+    transform: scale(1.05); 
 }
