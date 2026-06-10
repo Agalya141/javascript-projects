@@ -55,7 +55,7 @@ body::before {
 }
 p{
     font-size:20px;
-    font-weight:1000px;
+    color:bisque;
     margin:6px;
     font-family:cursive,'Times New Roman', Times, serif
 }
